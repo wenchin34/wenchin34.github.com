@@ -1,0 +1,61 @@
+/*
+Code: opendata/index.css
+Version: 1.2.0  @2022/02/15
+Revision: 
+Author: Wenchin Hsieh @Goomo.Net Studio, wenchin@goomo.net
+*/
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#caption {
+    color: #FFF;
+    font-size: 24px;
+    padding: 5px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    background: linear-gradient(to top right, #444, #777, #AAA, #EEE);
+    font-weight: bold;
+}
+
+#prename {
+    color: #FB0;
+}
+
+#nomap {
+    background-color: #EEE;
+    padding-bottom: 4px;
+}
+
+#map {
+    flex-grow: 1;
+    position: relative;
+    border: 1px solid grey;
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 2px 3px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#btnStartGeo {
+    background-color: #4CAF50;
+}
+
+#btnStopGeo {
+    background-color: #AF4C50;
+}

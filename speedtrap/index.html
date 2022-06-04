@@ -1,0 +1,58 @@
+<!doctype html>
+
+<!--
+Code: opendata/index.html
+Version: 1.1.0  @2022/03/06
+Revision: 
+Author: Wenchin Hsieh @Goomo.Net Studio, wenchin@goomo.net
+-->
+
+<html lang="zh-tw">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>測速照相預警器</title>
+
+    <!--link rel="stylesheet" href="https://openlayers.org/en/v6.12.0/css/ol.css" type="text/css"-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.12.0/css/ol.css" type="text/css">
+    <!--link rel="stylesheet" href="ol/ol.css" type="text/css"-->
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+    <!--script src="https://openlayers.org/en/v6.12.0/build/ol.js"></script-->
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.12.0/build/ol.js"></script>
+    <!--script src="ol/ol.js"></script-->
+
+    <!--script src="https://code.jquery.com/jquery-3.6.0.min.js"></script-->
+    <!--script src="https://momentjs.com/downloads/moment-with-locales.js"></script-->
+    <!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script-->
+
+</head>
+
+<body>
+    <div id="nomap">
+        <div id="caption">
+            <span id="prename">網頁版</span> 📸 測速照相預警器
+        </div>
+
+        &nbsp; 🚩循跡
+        <button id="btnStartGeo" class="btn">開始</button>
+        <button id="btnStopGeo" class="btn">停止</button>
+        <span id="txtLocation"></span>
+
+    </div>
+
+    <div id="map">
+        <!--pre id="tile_info">Tile Information:</pre-->
+        <!--div id="panelVehicle"><span id="vehicle" data-toggle="tooltip" data-placement="top" title="">📍</span></div-->
+        <div id="panelClock"><span id="clock"></span></div>
+        <div id="panelVehicle"><span id="vehicle"> </span></div>
+    </div>
+
+    <script src="speedtrap.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
