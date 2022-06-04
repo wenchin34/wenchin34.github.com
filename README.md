@@ -6,22 +6,8 @@
 
 </p>
 
-  - [EXPERIENCE](#experience)
-    - [**Company,** Location — *Job Title*](#company-location--job-title)
-  - [EDUCATION](#education)
-  - [PROJECTS](#projects)
-    - [**Project Name**](#project-name)
-  - [SKILLS](#skills)
-    - [FRONTEND](#frontend)
-    - [BACKEND](#backend)
-    - [PROGRAMMING LANGUAGES](#programming-languages)
-  - [AWARDS/ACHIEVEMENTS](#awardsachievements)
-    - [*Award Title*](#award-title)
-  - [CERTIFICATIONS](#certifications)
-    - [*Title*](#title)
-  - [LANGUAGES](#languages)
-  - [SOCIAL LINKS](#social-links)
-  - [CONTACT ME](#contact-me)
+  - [學經歷](#學經歷)
+  - [專業技能](#專業技能)
 
 
 ## 學經歷
@@ -36,10 +22,6 @@
 * 龜毛工坊 個人工作室 (2019~2022)
 * 勞動部勞發署 北分署 物聯網創客基地 – 進駐團隊及工作坊課程講師 (2020~2022)
 * 勞動部勞發署 產業新尖兵試辦計畫 / 產業人才投資方案 – 銘傳大學承辦課程講師 (2021~2022)
-
-### **Company,** Location — *Job Title*
-
-MONTH 20XX - MONTH 20XX
 
 
 ## 專業技能
