@@ -1,126 +1,101 @@
-# hello-world
-It's my 1st homework!
+# 謝文欽
 
-```python class:"lineNo"
-def hanoi(n, A="A", B="B", C="C"):
-    if n > 0:
-        hanoi(n-1, A, C, B)
-        print("Move a Disc from %s to %s" % (A, C))
-        hanoi(n-1, B, A, C)
-hanoi(4)
-```
+<p align="center">
+<img alt="Wenchin Hsieh" src="https://avatars.githubusercontent.com/u/17921867?v=4" width="200" height="200" />
+</p>
 
-```javascript {.line-numbers}
-function add(x, y) {
-  return x + y;
-}
-```
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim eu turpis egestas pretium aenean. Dis parturient montes nascetur ridiculus mus mauris vitae. Duis ultricies lacus sed turpis tincidunt id aliquet. Phasellus vestibulum lorem sed risus ultricies tristique nulla.
+</p>
 
-```javascript {.line-numbers}
-function add(x, y) {
-  return x + y;
-}
-```
+  - [EXPERIENCE](#experience)
+    - [**Company,** Location — *Job Title*](#company-location--job-title)
+  - [EDUCATION](#education)
+  - [PROJECTS](#projects)
+    - [**Project Name**](#project-name)
+  - [SKILLS](#skills)
+    - [FRONTEND](#frontend)
+    - [BACKEND](#backend)
+    - [PROGRAMMING LANGUAGES](#programming-languages)
+  - [AWARDS/ACHIEVEMENTS](#awardsachievements)
+    - [*Award Title*](#award-title)
+  - [CERTIFICATIONS](#certifications)
+    - [*Title*](#title)
+  - [LANGUAGES](#languages)
+  - [SOCIAL LINKS](#social-links)
+  - [CONTACT ME](#contact-me)
+  
+## EXPERIENCE
 
-**The Cauchy-Schwarz Inequality**
+### **Company,** Location — *Job Title*
 
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+MONTH 20XX - MONTH 20XX
 
-This expression uses `\$` to display a dollar sign: $\sqrt{\$4}$
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim eu turpis egestas pretium aenean.
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim eu turpis egestas pretium aenean.
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim eu turpis egestas pretium aenean.
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim eu turpis egestas pretium aenean.
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim eu turpis egestas pretium aenean.
 
-To split <span>$</span>100 in half, we calculate $100/2$
+## EDUCATION
 
-| Command | Description |
-| --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
+| Place  | Location | Degree | Year Of Passing | Percentage/Grade/CGPA |
+|  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |
+| University/College/School  | College Location   | Bachelors/Masters  | 20XX  | 100%/O/10  |
 
+## PROJECTS
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+### [**Project Name**](https://github.com/apsrcreatix/resume-md)
 
-```geojson
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "id": 1,
-      "properties": {
-        "ID": 0
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-              [121.4,25.0],
-              [121.4,25.1],
-              [121.6,25.1],
-              [121.6,25.0]
-          ]
-        ]
-      }
-    }
-  ]
-}
-```
+*Detail*
 
-```stl
-solid cube_corner
-  facet normal 0.0 -1.0 0.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 1.0 0.0 0.0
-      vertex 0.0 0.0 1.0
-    endloop
-  endfacet
-  facet normal 0.0 0.0 -1.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 0.0 1.0 0.0
-      vertex 1.0 0.0 0.0
-    endloop
-  endfacet
-  facet normal -1.0 0.0 0.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 0.0 0.0 1.0
-      vertex 0.0 1.0 0.0
-    endloop
-  endfacet
-  facet normal 0.577 0.577 0.577
-    outer loop
-      vertex 1.0 0.0 0.0
-      vertex 0.0 1.0 0.0
-      vertex 0.0 0.0 1.0
-    endloop
-  endfacet
-endsolid
-```
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 
-```javascript {highlight=10}
-```
+## SKILLS
 
-```javascript {highlight=10-20}
-```
+### FRONTEND
+* Skill I
+* Skill II
+* Skill III
 
-```javascript {highlight=[1-10,15,20-22]}
-```
+### BACKEND
+* Skill I
+* Skill II
+* Skill III
 
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
+### PROGRAMMING LANGUAGES
+* Skill I
+* Skill II
+* Skill III
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+## AWARDS/ACHIEVEMENTS
 
-:smile:
-:fa-car:
+### *Award Title*
+MONTH 20XX
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim eu turpis egestas pretium aenean.
+
+## CERTIFICATIONS
+
+### *Title*
+MONTH 20XX
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim eu turpis egestas pretium aenean
+
+## LANGUAGES
+
+* English
+* Hindi
+* French
+
+## SOCIAL LINKS
+
+* [Twitter](https:/www.twitter.com/)
+* [Github](https:/www.github.com/)
+* [Linkedin](https:/www.linkedin.com/)
+
+## CONTACT ME
+
+* [ADDRESS GOES HERE](https://maps.google.com)
+* +911234567890
+* [mail@mail.com](mailto:apsrcreatix@gmail.com)
