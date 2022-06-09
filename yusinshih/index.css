@@ -1,0 +1,284 @@
+html,
+body {
+    font-family: noto sans cjk tc regular;
+    background-color: #CCC;
+}
+
+body {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #707070;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+}
+
+/* 複寫區 */
+
+ul {
+    padding: 0px;
+    list-style: none;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 20px;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+h2::after {
+    content: " ";
+    display: inline-block;
+    background-color: #E2CD8A;
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+}
+
+h4 {
+    margin: 0;
+    margin-top: 40px;
+    opacity: 0.6;
+}
+
+a {
+    text-decoration: initial;
+    color: #707070;
+}
+
+hr {
+    border: none;
+    border-bottom: solid 2px #E2CD8A;
+    width: 40%;
+    margin-left: 0;
+}
+
+
+/* resume */
+
+.resume {
+    display: flex;
+    max-width: 900px;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+    border-bottom: solid 10px #2ECD8A;
+}
+
+.left,
+.right {
+    padding: 20px;
+}
+
+/* letf */
+
+.left {
+    flex: 5;
+    padding-right: 50px;
+    border-right: solid 0.5px #2ECD8A;
+}
+
+.buttons {
+    margin-top: 40px;
+}
+
+.btn1 {
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #E2CD8A;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn1:hover {
+    background-color: #ea00a4;
+}
+
+.btn2 {
+    padding: 10px;
+    border: solid 1px #E2CD8A;
+    border-radius: 5px;
+    color: #E2CD8A
+}
+
+.btn2:hover {
+    border-radius: 0px;
+}
+
+.listSkill {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+.listSkill li {
+    width: 33%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #555;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(226, 205, 138, 0.5);
+}
+
+.circle::after {
+    content: " ";
+    display: block;
+    background-color: #fff;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.p90 {
+    width: 50%;
+    height: 50%;
+    top: 0;
+    left: 50%;
+    position: absolute;
+    background-color: #E2CD8A;
+}
+
+.p180 {
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    background-color: #E2CD8A;
+}
+
+.p270 {
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    right: 50%;
+    position: absolute;
+    background-color: #E2CD8A;
+}
+
+.p360 {
+    width: 50%;
+    height: 50%;
+    top: 0;
+    right: 50%;
+    position: absolute;
+    background-color: #E2CD8A;
+}
+
+.software li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.software .bar {
+    width: 200px;
+    height: 10px;
+    border: solid 0.5px #E2CD8A;
+    border-radius: 30px;
+}
+
+.value {
+    height: 100%;
+    width: 60%;
+    background-color: #E2CD8A;
+    border-radius: 30px;
+}
+
+.value.p20 {
+    width: 20%;
+}
+
+.value.p60 {
+    width: 60%;
+}
+
+.value.p80 {
+    width: 80%;
+}
+
+/* right */
+
+.right {
+    flex: 7;
+    padding-left: 50px;
+    padding-top: 120px;
+}
+
+.decoration {
+    width: 300px;
+    height: 140px;
+    background: linear-gradient(135deg, #E2CD8A, #F26F61);
+    border-radius: 50% 0;
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+
+.experience>li {
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.experience li ul {
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left: solid 4px #E2CD8A;
+}
+
+.experience li:nth-child(1) ul {
+    border-left: solid 4px #E2CD8A
+}
+
+.experience li:nth-child(2) ul {
+    border-left: solid 4px #ead596
+}
+
+.experience li:nth-child(3) ul {
+    border-left: solid 4px #e8d7a4
+}
+
+.experience li:nth-child(4) ul {
+    border-left: solid 4px #f2e3b5
+}
+
+.experience li:nth-child(5) ul {
+    border-left: solid 4px #f4e9c8
+}
+
+.smalltext {
+    opacity: 70%;
+    font-size: 10px;
+    margin-left: 0;
+}
+
+.competition li {
+    padding-bottom: 10px;
+}
