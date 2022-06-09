@@ -2,6 +2,7 @@ body {
     font-size: 15px;
     margin: 0;
     padding: 0;
+    background-color: #AA0
 }
 
 h1 {
@@ -12,9 +13,9 @@ h1 {
     text-decoration: none;
     background: linear-gradient(to top right, #444, #777, #AAA, #EEE);
     border: 0;
-    margin-top: 30px;
-    margin-left: -10px;
-    padding: 5px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 15px;
 }
 
 h2 {
@@ -22,7 +23,7 @@ h2 {
     font-weight: bold;
     border-left: 6px solid #666;
     margin-top: 6px;
-    margin-left: -2px;
+    margin-left: 0px;
     padding: 5px;
 }
 
