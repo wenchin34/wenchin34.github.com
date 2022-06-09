@@ -1,4 +1,6 @@
 # 宮崎駿
+
+![宮崎駿](https://upload.wikimedia.org/wikipedia/commons/e/ef/Hayao_Miyazaki.jpg)
 - 人設 – 動畫導演、編劇作家、人物設計師、漫畫家、作家及作詞人
 - 人國籍 – 日本
 - 出生 – 1941年1月5日
